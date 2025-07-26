@@ -6,6 +6,7 @@ Follow @doncryptico on instagram and other social media
 IP-Tracker V1 is a simple and powerful Python script to gather public information about any IP address. It's designed for ethical use, educational purposes, and network diagnostics.
 
 🔍 Features
+
 📍 Get geolocation info (city, region, country, etc.)
 🌐 Find ISP and organization details
 ⏰ Timezone and local time of the IP
