@@ -45,4 +45,4 @@ Do NOT use it for any illegal or unauthorized tracking.
 
 💡 Credits
 
-Developed with 💻 by Don Cryptico
+Developed by Don Cryptico
