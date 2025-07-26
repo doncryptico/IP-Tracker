@@ -1,4 +1,12 @@
 import requests
+import os
+import platform
+
+def clear_screen():
+    if platform.system() == "Windows":
+        os.system("cls")
+    else:
+        os.system("clear")
 
 def print_header():
     green = "\033[92m" 
@@ -32,7 +40,8 @@ def get_ip_info(ip=""):
     except Exception as e:
         print(f"❌ Error: {e}")
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
+    clear_screen()
     print_header()
     ip = input("🔍 Enter IP Address (leave blank for your IP): ").strip()
     get_ip_info(ip)
